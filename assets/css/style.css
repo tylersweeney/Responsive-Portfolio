@@ -95,7 +95,6 @@ footer {
 /* sidebar */
 .sidebar {
   float: right;
-  width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
@@ -199,4 +198,103 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+@media screen and (max-width: 640px){
+  #logo{
+    position:static;
+    width: 100%;
+  }
+  .auth-image{
+    width: 100%
+  }
+  nav{
+    text-align:center;
+    width:100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .sidebar{
+    float:left;
+    width: 100%;
+    max-width: none;
+    margin-left:25px;
+  }
+
+  .main-section{
+    margin-top:50px;
+    margin-left: 25px;
+    margin-right: 100px;
+  }
+  footer{
+    clear:both;
+    width:100%;
+  }
+}
+}
+@media screen and (max-width: 768px){
+  #logo{
+    position:fixed;
+    width: 100%;
+  }
+  .auth-image{
+    width: 100%
+  }
+  nav{
+    text-align:center;
+    width:100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .sidebar{
+    float:left;
+    width: 100%;
+    max-width: none;
+    margin-left:25px;
+  }
+
+  .main-section{
+    margin-top:50px;
+    margin-left: 25px;
+    margin-right: 100px;
+  }
+  footer{
+    clear:both;
+    width:100%;
+  }
+}
+
+}
+@media screen and (max-width: 980px){
+  #logo{
+    position:fixed;
+    width: 100%;
+  }
+  .auth-image{
+    width: 100%
+  }
+  nav{
+    text-align:center;
+    width:100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .sidebar{
+    float:left;
+    width: 100%;
+    max-width: none;
+    margin-left:25px;
+  }
+
+  .main-section{
+    margin-top:50px;
+    margin-left: 25px;
+    margin-right: 100px;
+  }
+  footer{
+    clear:both;
+    width:100%;
+  }
 }
